@@ -7,7 +7,7 @@ export default class Matrix extends Component {
 
   constructor() {
     super()
-    state() {
+    this.state = {
       color: 0
     }
   }
